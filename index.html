@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victorio Ortega</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <main>
+        <form action="otro.html" autocomplete="off">
+            <div class="container">
+                <div class="subcontainer">
+                    <label for="nombre" class="flex">Primer nombre:</label>
+                    <input id="nombre" autofocus>
+                    <div class="error-detail"></div>
+                </div>
+                <div class="subcontainer">
+                    <label for="apellido" class="flex">Primer apellido:</label>
+                    <input id="apellido">
+                    <div class="error-detail"></div>
+                </div>
+            </div>
+            <div class="container"">
+                <div class="subcontainer">
+                    <label for=" documento" class="flex">Tipo de documento</label>
+                    <div class="radio">
+                        <input type="radio">
+                        <label>DNI</label>
+                        <input type="radio">
+                        <label>CUIL</label>
+                    </div>
+                    <div class="error-detail"></div>
+                </div>
+                <div class="subcontainer">
+                    <label for="numero" class="flex">Número de documento</label>
+                    <input id="numero">
+                    <div class="error-detail"></div>
+                </div>
+            </div>
+            <div class="container">
+                <label for="direccion" class="flex">Dirección:</label>
+                <input id="direccion">
+                <div class="error-detail"></div>
+            </div>
+            <div class="botones">
+                <input id= "btnEnviar" type="submit">
+                <input id= "btnRestablecer" type="reset">
+            </div>
+        </form>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
